@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=600 height=520 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/2de43f17ea4dd8c357e45ef0e88daf04.loader.js";
+      var loaderUrl = buildUrl + "/aff71db06a7a75c4569db2fc871a6983.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/23f1540caf5fdd12e1d592f03806cd85.data.unityweb",
+        dataUrl: buildUrl + "/2c590fa0bb09d6d20fed2165e2e71e87.data.unityweb",
         frameworkUrl: buildUrl + "/a846fd0bff44bfc0c93e44778e2d0a85.framework.js.unityweb",
-        codeUrl: buildUrl + "/b78cb1c79d5112e5d3ed3d7daf425ec0.wasm.unityweb",
+        codeUrl: buildUrl + "/281c3146ddfa1f01c08dd88787ba8100.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "LABORARE",
         productName: "LGPE",
@@ -104,8 +104,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "600px";
+        canvas.style.height = "520px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
